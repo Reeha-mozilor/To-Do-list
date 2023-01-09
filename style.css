@@ -1,0 +1,55 @@
+html{
+    background-color: #8ea265;
+}
+.container{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:white;
+    padding: 2% 2%;
+    align-items: center;
+}
+h1{
+    color:#8ea265;
+}
+.add{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+fieldset{
+    color: #8ea265;
+    border-color: #8ea265;
+    border-style: dashed;
+}
+input[type=text]{
+
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 15%;
+}
+
+input[type=submit]{
+
+    width: 20%;
+    border: 1px solid #8ea265;
+    background-color: #8ea265;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover{
+    background-color: #d1d6c7;
+}
+
+input[type=checkbox]{
+    accent-color: rgb(85, 119, 82);
+        cursor: pointer;
+}
